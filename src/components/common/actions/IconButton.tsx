@@ -37,5 +37,5 @@ export default function IconButton({
     <ButtonStyled skin={skin}>
       {icon}
     </ButtonStyled>
-  );
+  )
 }
