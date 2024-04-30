@@ -13,6 +13,7 @@ export function Cell({
 }: CellProps) {
   return (
     <div
+      className={`${className}`}
       style={{
         gridArea: `span ${rows} / span ${span} / auto / auto`
       }}>
