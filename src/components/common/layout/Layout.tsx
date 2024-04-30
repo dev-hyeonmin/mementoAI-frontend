@@ -10,7 +10,7 @@ export default function Layout({
 }: LayoutProps) {
   return (
     <div
-      className="grid w-full gap-6 grid-rows-12">
+      className="grid w-full gap-6 grid-rows-12 auto-rows-auto">
       {children}
     </div>
   )
