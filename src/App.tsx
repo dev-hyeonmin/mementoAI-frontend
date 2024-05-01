@@ -1,7 +1,11 @@
-import { LoggedInRouter } from './routers/loggedinRouter';
+import DynamicRoutes from "./routes";
 
 function App() {
-  return <LoggedInRouter />;
+  return (
+    <>
+      <DynamicRoutes />
+    </>
+  );
 }
 
 export default App

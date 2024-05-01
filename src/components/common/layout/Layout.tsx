@@ -4,7 +4,6 @@ interface LayoutProps {
 }
 
 export default function Layout({
-  className = '',
   children }
   : LayoutProps) {
   return (

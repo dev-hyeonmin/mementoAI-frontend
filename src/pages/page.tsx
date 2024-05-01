@@ -1,6 +1,7 @@
-import Button from "../../components/common/actions/Button";
-import { Cell } from "../../components/common/layout/Cell";
-import Layout from "../../components/common/layout/Layout";
+import Button from "../components/common/actions/Button";
+import { Cell } from "../components/common/layout/Cell";
+import Layout from "../components/common/layout/Layout";
+
 
 export default function Main() {
   return (
