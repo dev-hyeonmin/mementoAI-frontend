@@ -1,11 +1,7 @@
-import Button from './components/common/actions/Button'
+import { LoggedInRouter } from './routers/loggedinRouter';
 
 function App() {
-  return (
-    <>
-      <Button label='button'/>
-    </>
-  )
+  return <LoggedInRouter />;
 }
 
 export default App
